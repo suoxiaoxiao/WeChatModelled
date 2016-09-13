@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>chatBar_colorMore_audioCall</string>
+		<key>name</key>
+		<string>电话</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>chatBar_colorMore_camera</string>
+		<key>name</key>
+		<string>拍照</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>chatBar_colorMore_location</string>
+		<key>name</key>
+		<string>位置</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>chatBar_colorMore_photo</string>
+		<key>name</key>
+		<string>相册</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>chatBar_colorMore_video</string>
+		<key>name</key>
+		<string>小视频</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>chatBar_colorMore_videoCall</string>
+		<key>name</key>
+		<string>视频通话</string>
+	</dict>
+</array>
+</plist>

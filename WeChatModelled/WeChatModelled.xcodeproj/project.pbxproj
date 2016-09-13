@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36837A3C1D3788F3F67C825A /* libPods-WeChatModelled.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE2A0A145CC1FA3CC6ED7EF /* libPods-WeChatModelled.a */; };
 		A8604E7D1D87F26A005086C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8604E7C1D87F26A005086C7 /* main.m */; };
 		A8604E801D87F26A005086C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8604E7F1D87F26A005086C7 /* AppDelegate.m */; };
-		A8604E831D87F26A005086C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8604E821D87F26A005086C7 /* ViewController.m */; };
 		A8604E861D87F26A005086C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8604E841D87F26A005086C7 /* Main.storyboard */; };
 		A8604E881D87F26A005086C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8604E871D87F26A005086C7 /* Assets.xcassets */; };
 		A8604E8B1D87F26A005086C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8604E891D87F26A005086C7 /* LaunchScreen.storyboard */; };
 		A8604E961D87F26A005086C7 /* WeChatModelledUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8604E951D87F26A005086C7 /* WeChatModelledUITests.m */; };
+		A8604ECF1D87F6A4005086C7 /* chat_location_preview.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EB61D87F6A4005086C7 /* chat_location_preview.png */; };
+		A8604ED01D87F6A4005086C7 /* chat_location_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EB71D87F6A4005086C7 /* chat_location_preview@2x.png */; };
+		A8604ED11D87F6A4005086C7 /* chat_receiver_audio_playing_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EB81D87F6A4005086C7 /* chat_receiver_audio_playing_full.png */; };
+		A8604ED21D87F6A4005086C7 /* chat_receiver_audio_playing_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EB91D87F6A4005086C7 /* chat_receiver_audio_playing_full@2x.png */; };
+		A8604ED31D87F6A4005086C7 /* chat_receiver_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EBA1D87F6A4005086C7 /* chat_receiver_bg.png */; };
+		A8604ED41D87F6A4005086C7 /* chat_receiver_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EBB1D87F6A4005086C7 /* chat_receiver_bg@2x.png */; };
+		A8604ED51D87F6A4005086C7 /* chat_sender_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EBC1D87F6A4005086C7 /* chat_sender_bg.png */; };
+		A8604ED61D87F6A4005086C7 /* chat_sender_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EBD1D87F6A4005086C7 /* chat_sender_bg@2x.png */; };
+		A8604ED71D87F6A4005086C7 /* chatBar_colorMore_audioCall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EBE1D87F6A4005086C7 /* chatBar_colorMore_audioCall@2x.png */; };
+		A8604ED81D87F6A4005086C7 /* chatBar_colorMore_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EBF1D87F6A4005086C7 /* chatBar_colorMore_camera@2x.png */; };
+		A8604ED91D87F6A4005086C7 /* chatBar_colorMore_location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EC01D87F6A4005086C7 /* chatBar_colorMore_location@2x.png */; };
+		A8604EDA1D87F6A4005086C7 /* chatBar_colorMore_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EC11D87F6A4005086C7 /* chatBar_colorMore_photo@2x.png */; };
+		A8604EDB1D87F6A4005086C7 /* chatBar_colorMore_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EC21D87F6A4005086C7 /* chatBar_colorMore_video@2x.png */; };
+		A8604EDC1D87F6A4005086C7 /* chatBar_colorMore_videoCall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EC31D87F6A4005086C7 /* chatBar_colorMore_videoCall@2x.png */; };
+		A8604EDD1D87F6A4005086C7 /* chatBar_face.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EC41D87F6A4005086C7 /* chatBar_face.png */; };
+		A8604EDE1D87F6A4005086C7 /* chatBar_face@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EC51D87F6A4005086C7 /* chatBar_face@2x.png */; };
+		A8604EDF1D87F6A4005086C7 /* chatBar_keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EC61D87F6A4005086C7 /* chatBar_keyboard.png */; };
+		A8604EE01D87F6A4005086C7 /* chatBar_keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EC71D87F6A4005086C7 /* chatBar_keyboard@2x.png */; };
+		A8604EE11D87F6A4005086C7 /* chatBar_more.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EC81D87F6A4005086C7 /* chatBar_more.png */; };
+		A8604EE21D87F6A4005086C7 /* chatBar_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604EC91D87F6A4005086C7 /* chatBar_more@2x.png */; };
+		A8604EE31D87F6A4005086C7 /* chatBar_record.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604ECA1D87F6A4005086C7 /* chatBar_record.png */; };
+		A8604EE41D87F6A4005086C7 /* chatBar_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604ECB1D87F6A4005086C7 /* chatBar_record@2x.png */; };
+		A8604EE51D87F6A4005086C7 /* imageDownloadFail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604ECC1D87F6A4005086C7 /* imageDownloadFail@2x.png */; };
+		A8604EE61D87F6A4005086C7 /* messageSendFail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8604ECD1D87F6A4005086C7 /* messageSendFail@2x.png */; };
+		A8604EE71D87F6A4005086C7 /* MorePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8604ECE1D87F6A4005086C7 /* MorePlist.plist */; };
+		A8604EE91D87F706005086C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8604EE81D87F706005086C7 /* ViewController.m */; };
+		A8604EEC1D87F717005086C7 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8604EEA1D87F717005086C7 /* ChatViewController.m */; };
+		A8604EF31D87F720005086C7 /* ChatKeyBoardToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A8604EEE1D87F720005086C7 /* ChatKeyBoardToolBar.m */; };
+		A8604EF41D87F720005086C7 /* CustomMoreModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A8604EF01D87F720005086C7 /* CustomMoreModule.m */; };
+		A8604EF51D87F720005086C7 /* MoreKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A8604EF21D87F720005086C7 /* MoreKeyBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11E2ED8BADF1359D1143198F /* Pods-WeChatModelled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatModelled.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatModelled/Pods-WeChatModelled.release.xcconfig"; sourceTree = "<group>"; };
 		A8604E781D87F26A005086C7 /* WeChatModelled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatModelled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8604E7C1D87F26A005086C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8604E7E1D87F26A005086C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8604E7F1D87F26A005086C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A8604E811D87F26A005086C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A8604E821D87F26A005086C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A8604E851D87F26A005086C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8604E871D87F26A005086C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8604E8A1D87F26A005086C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +70,42 @@
 		A8604E911D87F26A005086C7 /* WeChatModelledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatModelledUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8604E951D87F26A005086C7 /* WeChatModelledUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatModelledUITests.m; sourceTree = "<group>"; };
 		A8604E971D87F26A005086C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8604EB61D87F6A4005086C7 /* chat_location_preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_location_preview.png; sourceTree = "<group>"; };
+		A8604EB71D87F6A4005086C7 /* chat_location_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_location_preview@2x.png"; sourceTree = "<group>"; };
+		A8604EB81D87F6A4005086C7 /* chat_receiver_audio_playing_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_receiver_audio_playing_full.png; sourceTree = "<group>"; };
+		A8604EB91D87F6A4005086C7 /* chat_receiver_audio_playing_full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_receiver_audio_playing_full@2x.png"; sourceTree = "<group>"; };
+		A8604EBA1D87F6A4005086C7 /* chat_receiver_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_receiver_bg.png; sourceTree = "<group>"; };
+		A8604EBB1D87F6A4005086C7 /* chat_receiver_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_receiver_bg@2x.png"; sourceTree = "<group>"; };
+		A8604EBC1D87F6A4005086C7 /* chat_sender_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_sender_bg.png; sourceTree = "<group>"; };
+		A8604EBD1D87F6A4005086C7 /* chat_sender_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_sender_bg@2x.png"; sourceTree = "<group>"; };
+		A8604EBE1D87F6A4005086C7 /* chatBar_colorMore_audioCall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_colorMore_audioCall@2x.png"; sourceTree = "<group>"; };
+		A8604EBF1D87F6A4005086C7 /* chatBar_colorMore_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_colorMore_camera@2x.png"; sourceTree = "<group>"; };
+		A8604EC01D87F6A4005086C7 /* chatBar_colorMore_location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_colorMore_location@2x.png"; sourceTree = "<group>"; };
+		A8604EC11D87F6A4005086C7 /* chatBar_colorMore_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_colorMore_photo@2x.png"; sourceTree = "<group>"; };
+		A8604EC21D87F6A4005086C7 /* chatBar_colorMore_video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_colorMore_video@2x.png"; sourceTree = "<group>"; };
+		A8604EC31D87F6A4005086C7 /* chatBar_colorMore_videoCall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_colorMore_videoCall@2x.png"; sourceTree = "<group>"; };
+		A8604EC41D87F6A4005086C7 /* chatBar_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatBar_face.png; sourceTree = "<group>"; };
+		A8604EC51D87F6A4005086C7 /* chatBar_face@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_face@2x.png"; sourceTree = "<group>"; };
+		A8604EC61D87F6A4005086C7 /* chatBar_keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatBar_keyboard.png; sourceTree = "<group>"; };
+		A8604EC71D87F6A4005086C7 /* chatBar_keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_keyboard@2x.png"; sourceTree = "<group>"; };
+		A8604EC81D87F6A4005086C7 /* chatBar_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatBar_more.png; sourceTree = "<group>"; };
+		A8604EC91D87F6A4005086C7 /* chatBar_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_more@2x.png"; sourceTree = "<group>"; };
+		A8604ECA1D87F6A4005086C7 /* chatBar_record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatBar_record.png; sourceTree = "<group>"; };
+		A8604ECB1D87F6A4005086C7 /* chatBar_record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_record@2x.png"; sourceTree = "<group>"; };
+		A8604ECC1D87F6A4005086C7 /* imageDownloadFail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageDownloadFail@2x.png"; sourceTree = "<group>"; };
+		A8604ECD1D87F6A4005086C7 /* messageSendFail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messageSendFail@2x.png"; sourceTree = "<group>"; };
+		A8604ECE1D87F6A4005086C7 /* MorePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MorePlist.plist; sourceTree = "<group>"; };
+		A8604EE81D87F706005086C7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8604EEA1D87F717005086C7 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		A8604EEB1D87F717005086C7 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		A8604EED1D87F720005086C7 /* ChatKeyBoardToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatKeyBoardToolBar.h; sourceTree = "<group>"; };
+		A8604EEE1D87F720005086C7 /* ChatKeyBoardToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatKeyBoardToolBar.m; sourceTree = "<group>"; };
+		A8604EEF1D87F720005086C7 /* CustomMoreModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMoreModule.h; sourceTree = "<group>"; };
+		A8604EF01D87F720005086C7 /* CustomMoreModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMoreModule.m; sourceTree = "<group>"; };
+		A8604EF11D87F720005086C7 /* MoreKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreKeyBoard.h; sourceTree = "<group>"; };
+		A8604EF21D87F720005086C7 /* MoreKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreKeyBoard.m; sourceTree = "<group>"; };
+		B6DA4104BCD26539990E2BD2 /* Pods-WeChatModelled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatModelled.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatModelled/Pods-WeChatModelled.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE2A0A145CC1FA3CC6ED7EF /* libPods-WeChatModelled.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatModelled.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36837A3C1D3788F3F67C825A /* libPods-WeChatModelled.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +127,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76E13FE2EDD59AA3721D385D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE2A0A145CC1FA3CC6ED7EF /* libPods-WeChatModelled.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A8604E6F1D87F26A005086C7 = {
 			isa = PBXGroup;
 			children = (
 				A8604E7A1D87F26A005086C7 /* WeChatModelled */,
 				A8604E941D87F26A005086C7 /* WeChatModelledUITests */,
 				A8604E791D87F26A005086C7 /* Products */,
+				D3DA35693B58F6F4E19D0F36 /* Pods */,
+				76E13FE2EDD59AA3721D385D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +158,16 @@
 		A8604E7A1D87F26A005086C7 /* WeChatModelled */ = {
 			isa = PBXGroup;
 			children = (
+				A8604EA01D87F67A005086C7 /* AddressBook */,
+				A8604EA51D87F67A005086C7 /* Find */,
+				A8604EAA1D87F67A005086C7 /* Home */,
+				A8604EAF1D87F67A005086C7 /* Resource */,
+				A8604EB01D87F67A005086C7 /* Tool */,
+				A8604EB11D87F67A005086C7 /* We */,
 				A8604E7E1D87F26A005086C7 /* AppDelegate.h */,
 				A8604E7F1D87F26A005086C7 /* AppDelegate.m */,
 				A8604E811D87F26A005086C7 /* ViewController.h */,
-				A8604E821D87F26A005086C7 /* ViewController.m */,
+				A8604EE81D87F706005086C7 /* ViewController.m */,
 				A8604E841D87F26A005086C7 /* Main.storyboard */,
 				A8604E871D87F26A005086C7 /* Assets.xcassets */,
 				A8604E891D87F26A005086C7 /* LaunchScreen.storyboard */,
@@ -111,6 +194,218 @@
 			path = WeChatModelledUITests;
 			sourceTree = "<group>";
 		};
+		A8604EA01D87F67A005086C7 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				A8604EA11D87F67A005086C7 /* Model */,
+				A8604EA21D87F67A005086C7 /* View */,
+				A8604EA31D87F67A005086C7 /* ViewController */,
+				A8604EA41D87F67A005086C7 /* ViewModel */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		A8604EA11D87F67A005086C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8604EA21D87F67A005086C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8604EA31D87F67A005086C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8604EA41D87F67A005086C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8604EA51D87F67A005086C7 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				A8604EA61D87F67A005086C7 /* Model */,
+				A8604EA71D87F67A005086C7 /* View */,
+				A8604EA81D87F67A005086C7 /* ViewController */,
+				A8604EA91D87F67A005086C7 /* ViewModel */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		A8604EA61D87F67A005086C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8604EA71D87F67A005086C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8604EA81D87F67A005086C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8604EA91D87F67A005086C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8604EAA1D87F67A005086C7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A8604EAB1D87F67A005086C7 /* Model */,
+				A8604EAC1D87F67A005086C7 /* View */,
+				A8604EAD1D87F67A005086C7 /* ViewController */,
+				A8604EAE1D87F67A005086C7 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A8604EAB1D87F67A005086C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8604EAC1D87F67A005086C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8604EED1D87F720005086C7 /* ChatKeyBoardToolBar.h */,
+				A8604EEE1D87F720005086C7 /* ChatKeyBoardToolBar.m */,
+				A8604EEF1D87F720005086C7 /* CustomMoreModule.h */,
+				A8604EF01D87F720005086C7 /* CustomMoreModule.m */,
+				A8604EF11D87F720005086C7 /* MoreKeyBoard.h */,
+				A8604EF21D87F720005086C7 /* MoreKeyBoard.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8604EAD1D87F67A005086C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8604EEA1D87F717005086C7 /* ChatViewController.m */,
+				A8604EEB1D87F717005086C7 /* ChatViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8604EAE1D87F67A005086C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8604EAF1D87F67A005086C7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A8604EB61D87F6A4005086C7 /* chat_location_preview.png */,
+				A8604EB71D87F6A4005086C7 /* chat_location_preview@2x.png */,
+				A8604EB81D87F6A4005086C7 /* chat_receiver_audio_playing_full.png */,
+				A8604EB91D87F6A4005086C7 /* chat_receiver_audio_playing_full@2x.png */,
+				A8604EBA1D87F6A4005086C7 /* chat_receiver_bg.png */,
+				A8604EBB1D87F6A4005086C7 /* chat_receiver_bg@2x.png */,
+				A8604EBC1D87F6A4005086C7 /* chat_sender_bg.png */,
+				A8604EBD1D87F6A4005086C7 /* chat_sender_bg@2x.png */,
+				A8604EBE1D87F6A4005086C7 /* chatBar_colorMore_audioCall@2x.png */,
+				A8604EBF1D87F6A4005086C7 /* chatBar_colorMore_camera@2x.png */,
+				A8604EC01D87F6A4005086C7 /* chatBar_colorMore_location@2x.png */,
+				A8604EC11D87F6A4005086C7 /* chatBar_colorMore_photo@2x.png */,
+				A8604EC21D87F6A4005086C7 /* chatBar_colorMore_video@2x.png */,
+				A8604EC31D87F6A4005086C7 /* chatBar_colorMore_videoCall@2x.png */,
+				A8604EC41D87F6A4005086C7 /* chatBar_face.png */,
+				A8604EC51D87F6A4005086C7 /* chatBar_face@2x.png */,
+				A8604EC61D87F6A4005086C7 /* chatBar_keyboard.png */,
+				A8604EC71D87F6A4005086C7 /* chatBar_keyboard@2x.png */,
+				A8604EC81D87F6A4005086C7 /* chatBar_more.png */,
+				A8604EC91D87F6A4005086C7 /* chatBar_more@2x.png */,
+				A8604ECA1D87F6A4005086C7 /* chatBar_record.png */,
+				A8604ECB1D87F6A4005086C7 /* chatBar_record@2x.png */,
+				A8604ECC1D87F6A4005086C7 /* imageDownloadFail@2x.png */,
+				A8604ECD1D87F6A4005086C7 /* messageSendFail@2x.png */,
+				A8604ECE1D87F6A4005086C7 /* MorePlist.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A8604EB01D87F67A005086C7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A8604EB11D87F67A005086C7 /* We */ = {
+			isa = PBXGroup;
+			children = (
+				A8604EB21D87F67A005086C7 /* Model */,
+				A8604EB31D87F67A005086C7 /* View */,
+				A8604EB41D87F67A005086C7 /* ViewController */,
+				A8604EB51D87F67A005086C7 /* ViewModel */,
+			);
+			path = We;
+			sourceTree = "<group>";
+		};
+		A8604EB21D87F67A005086C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8604EB31D87F67A005086C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8604EB41D87F67A005086C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8604EB51D87F67A005086C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D3DA35693B58F6F4E19D0F36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA4104BCD26539990E2BD2 /* Pods-WeChatModelled.debug.xcconfig */,
+				11E2ED8BADF1359D1143198F /* Pods-WeChatModelled.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +413,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8604E9A1D87F26A005086C7 /* Build configuration list for PBXNativeTarget "WeChatModelled" */;
 			buildPhases = (
+				25CCEB4B1132F4A252BF0626 /* 📦 Check Pods Manifest.lock */,
 				A8604E741D87F26A005086C7 /* Sources */,
 				A8604E751D87F26A005086C7 /* Frameworks */,
 				A8604E761D87F26A005086C7 /* Resources */,
+				FE7C686DA4E496E5B7AA6F6F /* 📦 Embed Pods Frameworks */,
+				8D68A60A07B8D4BCAAE544E4 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,8 +489,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8604EE71D87F6A4005086C7 /* MorePlist.plist in Resources */,
+				A8604EE01D87F6A4005086C7 /* chatBar_keyboard@2x.png in Resources */,
+				A8604EE41D87F6A4005086C7 /* chatBar_record@2x.png in Resources */,
+				A8604EDF1D87F6A4005086C7 /* chatBar_keyboard.png in Resources */,
+				A8604ED21D87F6A4005086C7 /* chat_receiver_audio_playing_full@2x.png in Resources */,
+				A8604ED41D87F6A4005086C7 /* chat_receiver_bg@2x.png in Resources */,
+				A8604ED01D87F6A4005086C7 /* chat_location_preview@2x.png in Resources */,
+				A8604EE61D87F6A4005086C7 /* messageSendFail@2x.png in Resources */,
+				A8604ED11D87F6A4005086C7 /* chat_receiver_audio_playing_full.png in Resources */,
+				A8604ED61D87F6A4005086C7 /* chat_sender_bg@2x.png in Resources */,
+				A8604EE21D87F6A4005086C7 /* chatBar_more@2x.png in Resources */,
+				A8604EE31D87F6A4005086C7 /* chatBar_record.png in Resources */,
+				A8604ED31D87F6A4005086C7 /* chat_receiver_bg.png in Resources */,
+				A8604EDD1D87F6A4005086C7 /* chatBar_face.png in Resources */,
+				A8604ED51D87F6A4005086C7 /* chat_sender_bg.png in Resources */,
+				A8604EE11D87F6A4005086C7 /* chatBar_more.png in Resources */,
+				A8604EE51D87F6A4005086C7 /* imageDownloadFail@2x.png in Resources */,
+				A8604EDB1D87F6A4005086C7 /* chatBar_colorMore_video@2x.png in Resources */,
+				A8604EDA1D87F6A4005086C7 /* chatBar_colorMore_photo@2x.png in Resources */,
+				A8604EDE1D87F6A4005086C7 /* chatBar_face@2x.png in Resources */,
 				A8604E8B1D87F26A005086C7 /* LaunchScreen.storyboard in Resources */,
+				A8604ECF1D87F6A4005086C7 /* chat_location_preview.png in Resources */,
 				A8604E881D87F26A005086C7 /* Assets.xcassets in Resources */,
+				A8604ED71D87F6A4005086C7 /* chatBar_colorMore_audioCall@2x.png in Resources */,
+				A8604ED81D87F6A4005086C7 /* chatBar_colorMore_camera@2x.png in Resources */,
+				A8604ED91D87F6A4005086C7 /* chatBar_colorMore_location@2x.png in Resources */,
+				A8604EDC1D87F6A4005086C7 /* chatBar_colorMore_videoCall@2x.png in Resources */,
 				A8604E861D87F26A005086C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,13 +529,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25CCEB4B1132F4A252BF0626 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D68A60A07B8D4BCAAE544E4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatModelled/Pods-WeChatModelled-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7C686DA4E496E5B7AA6F6F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatModelled/Pods-WeChatModelled-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8604E741D87F26A005086C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8604E831D87F26A005086C7 /* ViewController.m in Sources */,
+				A8604EE91D87F706005086C7 /* ViewController.m in Sources */,
 				A8604E801D87F26A005086C7 /* AppDelegate.m in Sources */,
+				A8604EEC1D87F717005086C7 /* ChatViewController.m in Sources */,
+				A8604EF51D87F720005086C7 /* MoreKeyBoard.m in Sources */,
+				A8604EF41D87F720005086C7 /* CustomMoreModule.m in Sources */,
+				A8604EF31D87F720005086C7 /* ChatKeyBoardToolBar.m in Sources */,
 				A8604E7D1D87F26A005086C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,9 +714,11 @@
 		};
 		A8604E9B1D87F26A005086C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DA4104BCD26539990E2BD2 /* Pods-WeChatModelled.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeChatModelled/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sxiao.project.WeChatModelled;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,9 +727,11 @@
 		};
 		A8604E9C1D87F26A005086C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E2ED8BADF1359D1143198F /* Pods-WeChatModelled.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeChatModelled/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sxiao.project.WeChatModelled;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,6 +779,7 @@
 				A8604E9C1D87F26A005086C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8604E9D1D87F26A005086C7 /* Build configuration list for PBXNativeTarget "WeChatModelledUITests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +788,7 @@
 				A8604E9F1D87F26A005086C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
